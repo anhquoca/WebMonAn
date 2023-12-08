@@ -1,0 +1,25 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebMonAn
+build_property.RootNamespace = WebMonAn
+build_property.ProjectDir = C:\Api\WebMonAn\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Api\WebMonAn
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Api/WebMonAn/Views/EmailTemplates/oder1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxUZW1wbGF0ZXNcb2RlcjEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Api/WebMonAn/Views/EmailTemplates/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxUZW1wbGF0ZXNcT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

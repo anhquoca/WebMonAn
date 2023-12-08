@@ -1,0 +1,31 @@
+﻿@page
+@using WebMonAn.DTOs;
+@model List<Order_deltailDTO>
+@{
+    <table border='1'>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Giá sản phẩm</th>
+                <th>Tổng tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Product.Name_product</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Product.Price</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan='3' align='right'>Tổng cộng:</td>
+                <td>@Model.Sum(x => x.Product.Price)</td>
+            </tr>
+        </tfoot>
+    </table>
+}
